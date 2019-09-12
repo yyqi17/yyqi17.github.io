@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 晓山眉样翠 秋水镜般明
+title   : 独立小楼风满袖
 description: > # this means to ignore newlines until "Language & timezone"
   Blogs written by yyqi.
 
@@ -38,7 +38,7 @@ author:
   name      : Yyqi
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : 这个人有点懒，但也没有那么懒。
+  bio       : 总之人生还长，不必慌张。
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
