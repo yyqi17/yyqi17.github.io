@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 人间世有声有色一丛烛火
+title   : 晓山眉样翠 秋水镜般明
 description: > # this means to ignore newlines until "Language & timezone"
   Blogs written by yyqi.
 
