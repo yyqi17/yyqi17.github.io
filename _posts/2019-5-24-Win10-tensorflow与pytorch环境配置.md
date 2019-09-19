@@ -1,7 +1,8 @@
 ---
 layout: article
-title: My Test Blog
+title: Win10 Tensorflow与PyTorch环境配置
 mode: immersive
+lightbox: true
 header:
   theme: dark
 article_header:
@@ -12,6 +13,10 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: http://pxdy964t4.bkt.clouddn.com/290580.jpg
 ---
+
+
+从全新电脑开始 - Win10基于anaconda的tensorflow与pytorch环境配置
+
 
 之前的电脑是华为 Matebook X，轻薄是真的很轻薄，拧不开瓶盖的人可以单手拎着到处跑，同配置比苹果便宜2000左右，但内存和GPU都不能满足跑代码的需求，于是入手了拯救者y7000p，内存16G（最大32G）、CPU i7、GPU GTX1060、SSD 256G。现在两个笔记本 + 配了电容笔的iPad就完美满足日常需求了。
 （吐槽一句挑战者真的蛮贵，神舟低2000元左右可以买到2060Ti的显卡）
