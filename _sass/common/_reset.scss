@@ -89,22 +89,12 @@ h1 {
 
 h2 {
   font-size: map-get($base, font-size-h2);
-  padding-left: 9px;
-  color: $text-color-d;
-  @include media-breakpoint-down(md) {
-    font-size: map-get($base, font-size-h2-sm);
-  }
-  border-left: 6px solid #cce5ff
-}
-/*
-h2 {
-  font-size: map-get($base, font-size-h2);
   color: $text-color-d;
   @include media-breakpoint-down(md) {
     font-size: map-get($base, font-size-h2-sm);
   }
 }
-*/
+
 
 h3 {
   font-size: map-get($base, font-size-h3);
@@ -140,6 +130,16 @@ h4 {
     font-size: map-get($base, font-size-h4-sm);
   }
 }
+h4:before {
+  background-color: #9ed0ff;
+  content: '';
+  width: 6px;
+  display: inline-block;
+  height: 2px;
+  vertical-align: middle;
+  margin-bottom: .18em;
+  margin-right: 8px
+}
 
 h5 {
   font-size: map-get($base, font-size-h5);
@@ -173,7 +173,7 @@ code {
 
 dl,       // 这里是新加的
 ol,
-p {
+ul {
   font-size: map-get($base, font-size);
 }
 
