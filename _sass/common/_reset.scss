@@ -80,13 +80,42 @@ strong {
 }
 
 h1 {
+  text-align: center;
+  font-size: map-get($base, font-size-h1);
+  color: $text-color-d;
+  @include media-breakpoint-down(md) {
+    font-size: map-get($base, font-size-h1-sm);
+  }
+  margin: 1em auto 1.2em
+}
+h1:after {
+  border-bottom: 2px dashed #afec9e;
+  content: '';
+  width: 100px;
+  display: block;
+  margin: .2em auto 0;
+  height: 2px
+}
+/*
+h1 {
   font-size: map-get($base, font-size-h1);
   color: $text-color-d;
   @include media-breakpoint-down(md) {
     font-size: map-get($base, font-size-h1-sm);
   }
 }
+*/
 
+h2 {
+  font-size: map-get($base, font-size-h2);
+  padding-left: 9px;
+  color: $text-color-d;
+  @include media-breakpoint-down(md) {
+    font-size: map-get($base, font-size-h2-sm);
+  }
+  border-left: 6px solid #cce5ff
+}
+/*
 h2 {
   font-size: map-get($base, font-size-h2);
   color: $text-color-d;
@@ -94,7 +123,7 @@ h2 {
     font-size: map-get($base, font-size-h2-sm);
   }
 }
-
+*/
 h3 {
   font-size: map-get($base, font-size-h3);
   color: $text-color-d;
@@ -130,6 +159,7 @@ h6 {
 a {
   font-weight: map-get($base, font-weight-bold);
   @include link-colors($main-color-1);
+  color: #4183c4      /* 这句是新加的 */
 }
 
 pre, code {
