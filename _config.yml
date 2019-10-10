@@ -147,13 +147,13 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : HYMhXrHUxYm4W3V5dzMgX1i2-gzGzoHsz # LeanCloud App id
+    app_key   : Jwr8AQM6MJWz0IgWajWGa47C # LeanCloud App key
+    app_class : yyqiBlogVisitNum # LeanCloud App class
 
 
 ## => Search
