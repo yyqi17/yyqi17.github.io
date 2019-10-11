@@ -35,7 +35,7 @@ ul.toc {
     &, a {
       font-size: map-get($base, font-size-sm);
       font-weight: map-get($base, font-weight);
-      line-height: map-get($base, line-height-sm);
+      line-height: map-get($base, line-height);
     }
   }
   .toc-h1 {
@@ -46,7 +46,7 @@ ul.toc {
     &, a {
       font-size: map-get($base, font-size);
       font-weight: map-get($base, font-weight-bold);
-      line-height: map-get($base, line-height);
+      line-height: map-get($base, line-height-lg);
     }
     a {
       @include link-colors($text-color-d, $main-color-1);
