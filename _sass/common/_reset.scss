@@ -7,6 +7,7 @@
   h6,
   p,
   hr,
+  mark,
   blockquote,
   figure,
   pre,
@@ -67,6 +68,10 @@ body {
 input, textarea, select, button {
   font: map-get($base, font-weight) #{map-get($base, font-size)}/#{map-get($base, line-height)} map-get($base, font-family);
   color: $text-color;
+}
+
+mark {
+  background-color: $select-color;
 }
 
 h1,
