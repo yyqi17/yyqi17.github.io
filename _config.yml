@@ -186,7 +186,6 @@ clipboard: true
 ##############################
 markdown    : kramdown
 highlighter : rouge
-permalink   : date
 
 exclude:
   - CHANGELOG.md
