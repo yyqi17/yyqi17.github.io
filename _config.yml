@@ -20,9 +20,9 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : yyqi's blog
+title   : 独立小楼风满袖
 description: > # this means to ignore newlines until "Language & timezone"
-  Welcome! Please feel free to comment.
+  Welcome. Please feel free to comment.
 
 
 ## => Language and Timezone
@@ -35,7 +35,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Yyqi
+  name      : yyqi
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : 总之人生还长，不必慌张。
