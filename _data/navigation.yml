@@ -33,5 +33,8 @@ header:
       ko-KR   : *KO
     url: /about.html
     
-  - title:  数据结构与算法
-    url: /data-structures-and-algorithms.html
+  - title:  数据结构
+    url: /data-structure.html
+
+  - title:  主页
+    url: 
