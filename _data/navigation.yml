@@ -1,4 +1,10 @@
 header:
+  - title:  主页
+    url: 
+    
+  - title:  数据结构
+    url: /data-structure.html
+    
   - titles:
       en      : &EN       Archive
       en-GB   : *EN
@@ -32,9 +38,3 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
-    
-  - title:  数据结构
-    url: /data-structure.html
-
-  - title:  主页
-    url: 
