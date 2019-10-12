@@ -38,3 +38,14 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
+
+data-structures:
+  -title: 树
+   children: 
+   - title: 树的遍历
+     url: /2019/09/25/数据结构代码记录-树的遍历.html
+   - title: 构造二叉树
+     url: /2019/10/12/数据结构-构造二叉树.html
+   - title: 二叉搜索树
+     url: /2019/10/09/数据结构-二叉搜索树.html
+     
