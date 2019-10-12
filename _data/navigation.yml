@@ -3,7 +3,7 @@ header:
     url: 
     
   - title:  数据结构
-    url: /data-structure.html
+    url: /data-structures.html
     
   - titles:
       en      : &EN       Archive
