@@ -2,6 +2,7 @@
 layout: article
 title: 数据结构 树的遍历
 tags: 数据结构 LeetCode 树
+categories: DataStructure
 sidebar:
   nav: data-structures
 mode: immersive
