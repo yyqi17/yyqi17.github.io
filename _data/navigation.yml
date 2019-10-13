@@ -3,7 +3,7 @@ header:
     url: 
     
   - title : 数据结构
-    url   : /DataStructure-TreeTraversal
+    url   : /DataStructure
     
   - titles:
       en      : &EN       Archive
@@ -43,9 +43,9 @@ data-structures:
   - title:      树
     children:
       - title:  树的遍历
-        url:    /DataStructure-TreeTraversal
+        url:    /DataStructure/TreeTraversal
       - title:  构造二叉树
-        url:    /DataStructure-BuildBinaryTree
+        url:    /DataStructure/BuildBinaryTree
       - title:  二叉搜索树
-        url:    /DataStructure-BinarySearchTree
+        url:    /DataStructure/BinarySearchTree
 
