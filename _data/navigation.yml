@@ -3,7 +3,7 @@ header:
     url: 
     
   - title : 数据结构
-    url   : /datastructure/*
+    url   : /datastructure/TreeTraversal
     
   - titles:
       en      : &EN       Archive
