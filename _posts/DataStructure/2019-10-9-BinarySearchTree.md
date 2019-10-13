@@ -2,6 +2,7 @@
 layout: article
 title: 数据结构 二叉搜索树
 tags: 数据结构 LeetCode 树 搜索树
+categories: DataStructure
 sidebar:
   nav: data-structures
 key: post20191009
