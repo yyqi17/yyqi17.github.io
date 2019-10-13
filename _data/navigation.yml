@@ -3,7 +3,7 @@ header:
     url: 
     
   - title:  数据结构
-    url: /数据结构代码记录-树的遍历
+    url: /数据结构代码记录-树的遍历/
     
   - titles:
       en      : &EN       Archive
@@ -20,7 +20,7 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       아카이브
       ko-KR   : *KO
-    url: /archive
+    url: /archive/
 
   - titles:
       en      : &EN       About
@@ -37,15 +37,15 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       소개
       ko-KR   : *KO
-    url: /about
+    url: /about/
 
 data-structures:
   - title   : 树
     children: 
     - title : 树的遍历
-      url   : /数据结构代码记录-树的遍历
+      url   : /数据结构代码记录-树的遍历/
     - title : 构造二叉树
-      url   : /数据结构-构造二叉树
+      url   : /数据结构-构造二叉树/
     - title : 二叉搜索树
-      url   : /数据结构-二叉搜索树
+      url   : /数据结构-二叉搜索树/
      
