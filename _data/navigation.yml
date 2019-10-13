@@ -20,7 +20,7 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       아카이브
       ko-KR   : *KO
-    url: /archive.html
+    url: /archive
 
   - titles:
       en      : &EN       About
@@ -37,7 +37,7 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       소개
       ko-KR   : *KO
-    url: /about.html
+    url: /about
 
 data-structures:
   - title   : 树
