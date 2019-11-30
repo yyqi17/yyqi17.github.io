@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Win10的Tensorflow与pyTorch环境配置
-tags: 环境配置
+title: Tensorflow笔记 OOM错误
+tags: Tensorflow
 mode: immersive
-key: post20190524
+key: post20191130
 lightbox: true
 header:
   theme: dark
