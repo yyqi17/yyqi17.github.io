@@ -65,7 +65,7 @@ article_header:
 ## 二、配置Colab
 
 <br/>
-第一次尝试时，一直显示 ` google-drive-ocamlfuse: command not found`，因此这里直接介绍我实际使用时可行（但更复杂一些）的通过opam安装的方式。
+第一次尝试时，一直显示 `google-drive-ocamlfuse: command not found`，因此这里直接介绍我实际使用时可行（但更复杂一些）的通过opam安装的方式。
 
 <br/>
 #### 1. 安装opam和google-drive-ocamlfuse
@@ -95,7 +95,6 @@ article_header:
 ```
 </div>
 
-<br/>
 得到输出
 
 <div class="snippet" markdown="1">
@@ -146,7 +145,6 @@ vcode = getpass.getpass()
 <br/>
 #### 5. 运行代码
 
-<br/>
 到这里就可以开始运行你的代码了。
 
 ```python
@@ -157,3 +155,8 @@ vcode = getpass.getpass()
 注意要在原本的train文件中更改数据读取路径。而且要注意，即使将.py文件和data文件夹放在同一个目录下面，也是不可以从相对路径读取的。data文件夹也要从drive/deeplearning/绝对路径获取。
 
 <br/>
+## 参考资料
+
+[薅资本主义羊毛，用Google免费GPU](https://zhuanlan.zhihu.com/p/33344222)
+
+[使用colab时遇到的各种坑--加载云盘里的文件](https://www.jianshu.com/p/1c1f47748827)
