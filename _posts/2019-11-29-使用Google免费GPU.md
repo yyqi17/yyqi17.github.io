@@ -62,18 +62,21 @@ article_header:
 <br/>
 
 <br/>
+
 ## 二、配置Colab
 
 <br/>
 第一次尝试时，一直显示 `google-drive-ocamlfuse: command not found`，因此这里直接介绍我实际使用时可行（但更复杂一些）的通过opam安装的方式。
 
 <br/>
+
 #### 1. 安装opam和google-drive-ocamlfuse
+
+先安装opam，再安装google-drive-ocamlfuse
 
 <div class="snippet" markdown="1">
 
-```python
-# 先安装opam，再安装google-drive-ocamlfuse
+```
 !apt-get install opam
 !opam init
 !opam update
@@ -85,12 +88,13 @@ article_header:
 </div>
 
 <br/>
+
 #### 2. 寻找具体路径
 
 <div class="snippet" markdown="1">
 
 
-```python
+```
 !find / -name google-drive-ocamlfuse
 ```
 </div>
@@ -99,7 +103,7 @@ article_header:
 
 <div class="snippet" markdown="1">
 
-```python
+```
 /root/.opam/system/share/google-drive-ocamlfuse
 /root/.opam/system/lib/google-drive-ocamlfuse
 /root/.opam/system/etc/google-drive-ocamlfuse
@@ -111,11 +115,12 @@ article_header:
 </div>
 
 <br/>
+
 #### 3. 授权
 
 <div class="snippet" markdown="1">
 
-```python
+```
 from google.colab import auth
 auth.authenticate_user()
 from oauth2client.client import GoogleCredentials
@@ -132,31 +137,37 @@ vcode = getpass.getpass()
 这里会有两次要求你进入链接，点击后登录你的Google账号并授权，将得到的验证码复制并粘贴到代码输出的文本框里。
 
 <br/>
+
 #### 4. 指定云盘根路径
 
 <div class="snippet" markdown="1">
 
-```python
+```
 !mkdir -p drive
 !/root/.opam/system/bin/google-drive-ocamlfuse drive
 ```
 </div>
 
 <br/>
+
 #### 5. 运行代码
 
 到这里就可以开始运行你的代码了。
 
-```python
+```
 !python3 drive/deeplearning/train_google.py 
 ```
 
 <br/>
+
 注意要在原本的train文件中更改数据读取路径。而且要注意，即使将.py文件和data文件夹放在同一个目录下面，也是不可以从相对路径读取的。data文件夹也要从drive/deeplearning/绝对路径获取。
 
 <br/>
+
 ## 参考资料
 
 [薅资本主义羊毛，用Google免费GPU](https://zhuanlan.zhihu.com/p/33344222)
 
 [使用colab时遇到的各种坑--加载云盘里的文件](https://www.jianshu.com/p/1c1f47748827)
+
+<br/>
