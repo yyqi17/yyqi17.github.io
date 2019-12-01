@@ -150,6 +150,19 @@ vcode = getpass.getpass()
 
 <br/>
 
+但非第一次运行的时候，这里需要加上 `nonempty`，即
+
+<div class="snippet" markdown="1">
+
+```
+!mkdir -p drive nonempty
+!/root/.opam/system/bin/google-drive-ocamlfuse drive  nonempty
+```
+</div>
+
+<br/>
+
+
 #### 5. 运行代码
 
 到这里就可以开始运行你的代码了。
@@ -163,6 +176,8 @@ vcode = getpass.getpass()
 注意要在原本的train文件中更改数据读取路径。而且要注意，即使将.py文件和data文件夹放在同一个目录下面，也是不可以从相对路径读取的。data文件夹也要从drive/deeplearning/绝对路径获取。
 
 <br/>
+
+**这里有一个问题，每次重新连接，都要重新运行上面的代码。**
 
 ## 参考资料
 
