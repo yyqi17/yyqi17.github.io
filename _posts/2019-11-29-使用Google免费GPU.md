@@ -199,7 +199,13 @@ Colab目前支持的是Tensorflow，如果需要PyTorch的话需要另行安装�
 
 <br/>
 
-综上，Colab的优势在于免费、与Google Drive同步，穷学生是足够用的。缺点在于操作复杂、连接会自动断开，并且从drive读数据的IO较慢，对于本科生稍微做点科研跑点小数据集还是足够用的，大数据集大项目还是氪金来得靠谱。
+#### 4. 另一种上传数据的方式
+
+见第四条参考资料。
+
+<br/>
+
+综上，Colab的优势在于免费、与Google Drive同步。缺点在于操作复杂、连接会自动断开，并且从drive读数据的IO较慢，对于普通学生DL入门跑点小数据还是够用的，大数据集大项目不如氪金来得靠谱。
 
 <br/>
 
@@ -208,5 +214,9 @@ Colab目前支持的是Tensorflow，如果需要PyTorch的话需要另行安装�
 [薅资本主义羊毛，用Google免费GPU](https://zhuanlan.zhihu.com/p/33344222)
 
 [使用colab时遇到的各种坑--加载云盘里的文件](https://www.jianshu.com/p/1c1f47748827)
+
+[苦逼学生党的Google Colab使用心得](https://zhuanlan.zhihu.com/p/54389036)
+
+[3 个相见恨晚的 Google Colaboratory 奇技淫巧！](https://zhuanlan.zhihu.com/p/56581879)
 
 <br/>
