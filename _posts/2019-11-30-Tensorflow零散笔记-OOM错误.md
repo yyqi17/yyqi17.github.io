@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Tensorflow笔记 OOM错误
+title: Tensorflow-OOM错误
 tags: Tensorflow
 mode: immersive
 key: post20191130
