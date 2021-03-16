@@ -15,8 +15,8 @@ article_header:
   theme: dark
   background_color: '#203028'
   background_image:
-    gradient: 'linear-gradient(135deg, rgba(94, 40, 161 , .4), rgba(217, 169, 59, .4))'
-    src: https://s2.ax1x.com/2019/10/12/uXAhUU.jpg
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 125 , .2), rgba(139, 34, 139, .2))'
+    src: https://s2.ax1x.com/2019/10/11/uH4v79.png
 ---
 
 从前序与中序、中序与后序序列构造
