@@ -14,9 +14,9 @@ article_header:
   type: overlay
   theme: dark
   background_color: '#203028'
-  background_image: 
-    gradient: 'linear-gradient(135deg, rgba(40, 129, 161 , .4), rgba(80, 171, 204, .4))'
-    src: https://s2.ax1x.com/2019/10/10/uThyxe.png
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 125 , .2), rgba(139, 34, 139, .2))'
+    src: https://s2.ax1x.com/2019/10/11/uH4v79.png
 ---
 
 包括二叉搜索树的简介、验证
