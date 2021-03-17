@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 数据结构 构造二叉树
-tags: 数据结构 LeetCode 树
+tags: DataStructure
 categories: DataStructure
 sidebar:
   nav: data-structures
@@ -44,11 +44,11 @@ article_header:
 >
 >　　　　　　　　　　　　　　　　　　15　　　　　7
 
-  
+
 　　具体实现时，前序序列用一个递增的 preIndex 读取即可，因为每次递归都是先进入左子树，中-左-右的顺序可以保证每次读到的都是正确位置的根节点。
-  
+
 　　而中序序列用字典存放，key-节点的值，value-节点在中序序列的下标。前序读到节点 v 时，可以根据中序序列判断出 v 的左右子树，同时也是判断递归出口。（当前节点为空即是递归的出口）
-  
+
 <div class="snippet" markdown="1">
 
 ```c++

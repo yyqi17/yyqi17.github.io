@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 深度学习-使用Google免费GPU 
-tags: 环境配置 Tensorflow 深度学习
+tags: DeepLearning
 mode: immersive
 key: post20191129
 lightbox: true
