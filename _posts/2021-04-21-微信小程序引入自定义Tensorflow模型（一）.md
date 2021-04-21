@@ -111,10 +111,10 @@ App({
 此时在.js文件中输入 `tf.tensor([1, 2, 3, 4]).print()` 可以输出Tensor [1, 2, 3, 4]，证明Tensorflow.js的引入成功。
 
 
+<br/>
 
 
-
-### 参考资料：
+参考资料：
 
 [TensorFlow.js微信官方文档](https://mp.weixin.qq.com/wxopen/plugindevdoc?appid=wx6afed118d9e81df9&token=692983652&lang=zh_CN)
 
