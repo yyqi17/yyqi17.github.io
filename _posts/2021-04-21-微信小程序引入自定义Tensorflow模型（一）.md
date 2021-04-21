@@ -24,14 +24,12 @@ article_header:
 
 1. 微信开发者工具（稳定版）
 
-<br/>
 2. 含Tensorflow运行环境的Python编译器
 
 <br/>
 
 ### 二、导入步骤
 
-<br/>
 #### Step 1. 创建项目+引入插件
 
 <br/>
