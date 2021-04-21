@@ -117,6 +117,7 @@ App({
 ### 参考资料：
 
 [TensorFlow.js微信官方文档](https://mp.weixin.qq.com/wxopen/plugindevdoc?appid=wx6afed118d9e81df9&token=692983652&lang=zh_CN)
+
 [【NEXT学院】TensorFlow.js遇到小程序](https://ke.qq.com/course/428263)
 
 <br/>
