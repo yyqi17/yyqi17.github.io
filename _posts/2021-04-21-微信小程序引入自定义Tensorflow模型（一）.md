@@ -32,27 +32,29 @@ article_header:
 
 #### Step 1. 创建项目+引入插件
 
-<br/>
+
 项目需要使用正式可发布的AppID，测试号的小程序目前（2021.4）无法使用插件。
 
 Tensorflow.js插件可以从[TensorFlow.js微信官方文档](https://mp.weixin.qq.com/wxopen/plugindevdoc?appid=wx6afed118d9e81df9&token=692983652&lang=zh_CN)点击引入，引入前需要先使用正式的AppID登陆。引入后应该可以从开发者工具“详情-基本信息-插件信息”看到新添加的插件。
 
 另一项需要对项目进行的配置是基础库的选择，在“详情-本地设置”中，将基础库设置为新版。
 
+
 <br/>
 #### Step 2. 安装Node.js
 
-<br/>
+
 [官网](nodejs.org)下载，选择LTS版本。
 
 命令行中输入 `node --version` 和 `npm --version` 可以得到版本号，即证明安装成功。
 
+
 <br/>
 #### Step 3. 引入tfjs包+fetch-wechat包
 
-<br/>
 命令行切换到小程序项目路径*（项目名不能含中文）*。
 
+<br/>
 1） 输入 `npm init` 初始化npm环境。需要填的信息一路回车默认即可。
 
 <br/>
@@ -87,7 +89,6 @@ app.json <mark>这里version一定不要直接复制官方文档的旧版0.0.6</
 }
 ```
 
-<br/>
 app.js
 ```javascript
 var fetchWechat = require('fetch-wechat');
